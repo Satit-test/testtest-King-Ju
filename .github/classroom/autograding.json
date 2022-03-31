@@ -1,19 +1,9 @@
 {
   "tests": [
     {
-      "name": "level",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": null
-    },
-    {
       "name": "1",
       "setup": "",
-      "run": "pytest",
+      "run": "python main.py",
       "input": "1",
       "output": "1",
       "comparison": "included",
